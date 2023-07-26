@@ -164,8 +164,8 @@ This script, located at ${bold}https://deb.nodesource.com/setup${normal}, used t
 
 setup() {
 
-script_deprecation_warning
-node_deprecation_warning
+# script_deprecation_warning
+# node_deprecation_warning
 
 print_status "Installing the NodeSource ${NODENAME} repo..."
 
